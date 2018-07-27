@@ -1,3 +1,3 @@
-# DivCrusher-CSS 
+# div-tamer-CSS 
 
-It's a simple CSS framework I made to use on my own projects with my most frequently used responsive styles and HTML structure.
+It's a simple CSS framework I made for TOP's CSS course, includes normalize.css
