@@ -50,6 +50,9 @@ img {
 .nav-links a {
   text-decoration: none;
   color: black;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1px;
   padding: 10px;
   border-radius: 2px;
   margin: 0 5px;
@@ -104,6 +107,17 @@ img {
   grid-column-gap: 10px;
 }
 
+.grid-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: auto;
+}
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
 .grid-3x {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -126,7 +140,7 @@ img {
 
 .main-container {
   text-align: center;
-  margin: 5% auto;
+  margin: 10% auto;
   padding-bottom: 40px;
   min-width: 250px;
 }
@@ -142,7 +156,7 @@ img {
 @media only screen and (max-width: 700px) {
 
   .grid-4x, .grid-3x, .grid-1-2-ver, .grid-1-2-hor,
-  .grid-2-1-1, .grid-1-1-2 {
+  .grid-2-1-1, .grid-1-1-2, .grid-3, .grid-4 {
     grid-template-columns: 1fr;
     grid-template-areas: "a"
                          "b"
@@ -150,3 +164,5 @@ img {
     text-align: left;
     padding: 5px;
   }
+
+}
